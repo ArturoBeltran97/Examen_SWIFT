@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Producto" representedClassName="Producto" syncable="YES" codeGenerationType="class">
-        <attribute name="descripcion_producto" optional="YES"/>
-        <attribute name="existencia_producto" optional="YES"/>
-        <attribute name="id_producto" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="marca_producto" optional="YES"/>
+        <attribute name="descripcion_producto" optional="YES" attributeType="String"/>
+        <attribute name="existencia_producto" optional="YES" attributeType="String"/>
+        <attribute name="id_producto" optional="YES" attributeType="String"/>
+        <attribute name="marca_producto" optional="YES" attributeType="String"/>
         <attribute name="nombre_producto" optional="YES" attributeType="String"/>
-        <attribute name="precio_producto" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="precio_producto" optional="YES" attributeType="String"/>
     </entity>
     <elements>
         <element name="Producto" positionX="-63" positionY="-18" width="128" height="119"/>
